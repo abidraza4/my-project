@@ -1,0 +1,16 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --border-o1: rgba(57, 55, 52, 1);
+  --purple-1: rgba(156, 36, 212, 1);
+  --white-1: rgba(248, 244, 221, 1);
+}
